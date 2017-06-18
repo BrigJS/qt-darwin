@@ -1,0 +1,22 @@
+{
+  "name": "qt-darwin",
+  "version": "0.0.1",
+  "author": "Fred Chiend <cfsghost@gmail.com>",
+  "description": "Darwin backend for brig",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cfsghost/qt-darwin.git"
+  },
+  "homepage": "http://github.com/cfsghost/qt-darwin",
+  "main": "./index.js",
+  "keywords": [
+    "gui",
+    "ui",
+    "graphics"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
