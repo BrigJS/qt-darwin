@@ -23,6 +23,7 @@ install_name_tool -add_rpath @loader_path/../../Frameworks PlugIns/platforms/lib
 
 # Packaging
 tar -zcvf library.tgz Frameworks PlugIns Resources
+mv library.tgz library.node
 
 # Clean
 rm -fr Frameworks
