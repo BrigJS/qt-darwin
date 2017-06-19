@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git://github.com/cfsghost/qt-darwin.git"
   },
+  "scripts": {
+    "install": "tar -zxf library.tgz; rm -fr library.tgz"
+  },
   "homepage": "http://github.com/cfsghost/qt-darwin",
   "main": "./index.js",
   "keywords": [
