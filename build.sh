@@ -21,6 +21,10 @@ mv -f qt-darwin.app/Contents/Resources/qml Resources/
 # modify run-time path for library searching
 install_name_tool -add_rpath @loader_path/../../Frameworks PlugIns/platforms/libqcocoa.dylib
 
+for filename in PlugIns/quick/*.dylib; do
+	install_name_tool -add_rpath @loader_path/../../Frameworks $filename
+done
+
 # Packaging
 tar -zcvf library.tgz Frameworks PlugIns Resources
 mv library.tgz library.node
