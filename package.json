@@ -1,6 +1,6 @@
 {
   "name": "qt-darwin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Fred Chiend <cfsghost@gmail.com>",
   "description": "Darwin backend for brig",
   "repository": {
